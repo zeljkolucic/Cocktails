@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA04A2D42B174B2E00B254B2 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA04A2D32B174B2E00B254B2 /* Colors.xcassets */; };
 		E431FC702B162DFE002EDAC4 /* CocktailsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E431FC6F2B162DFE002EDAC4 /* CocktailsApp.swift */; };
 		E431FC722B162DFE002EDAC4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E431FC712B162DFE002EDAC4 /* ContentView.swift */; };
 		E431FC742B162DFF002EDAC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E431FC732B162DFF002EDAC4 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA04A2D32B174B2E00B254B2 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		E431FC6C2B162DFE002EDAC4 /* Cocktails.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cocktails.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E431FC6F2B162DFE002EDAC4 /* CocktailsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailsApp.swift; sourceTree = "<group>"; };
 		E431FC712B162DFE002EDAC4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 				E431FC6F2B162DFE002EDAC4 /* CocktailsApp.swift */,
 				E431FC712B162DFE002EDAC4 /* ContentView.swift */,
 				E431FC732B162DFF002EDAC4 /* Assets.xcassets */,
+				BA04A2D32B174B2E00B254B2 /* Colors.xcassets */,
 				E431FC752B162DFF002EDAC4 /* Preview Content */,
 			);
 			path = Cocktails;
@@ -231,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA04A2D42B174B2E00B254B2 /* Colors.xcassets in Resources */,
 				E431FC772B162DFF002EDAC4 /* Preview Assets.xcassets in Resources */,
 				E431FC742B162DFF002EDAC4 /* Assets.xcassets in Resources */,
 			);
