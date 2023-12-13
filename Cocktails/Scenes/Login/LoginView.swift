@@ -8,36 +8,10 @@
 import SwiftUI
 
 struct LoginView: View {
-    @State var email: String = ""
-    @State var password: String = ""
-    
+
     var body: some View {
-        VStack(spacing: 12.0) {
-            Image("login")
-                .padding(.top)
-                .padding(.bottom)
-            
-            TextField("Email", text: $email)
-                .textFieldStyle(.roundedBorder)
-            
-            TextField("Password", text: $password)
-                .textFieldStyle(.roundedBorder)
-            
-            Button {
-                print("login")
-            } label: {
-                HStack {
-                    Image(systemName: "person")
-                    Text("Login")
-                }
-            }
-            .padding()
-            .frame(height: 45)
-            .tint(.backgroundTertiaryDark)
-            .background {
-                Color.white
-            }
-            .padding(.top)
+        VStack {
+            LoginForm()
             
             HStack {
                 Divider()
@@ -49,6 +23,7 @@ struct LoginView: View {
                     .frame(width: 120, height: 1.0)
                     .background(.white)
             }
+            .padding(.horizontal)
             
             Button {
                 print("reg")
@@ -61,16 +36,14 @@ struct LoginView: View {
             .padding()
             .frame(height: 45)
             .tint(.white)
-            .background {
-                Color.backgroundTertiaryLight.opacity(0.3)
-            }
+            .background(.backgroundTertiaryLight.opacity(0.3))
             
             Spacer()
             
             Image("drink1")
-                .padding(.bottom)
         }
         .padding(20)
+        .padding(.bottom)
         .background {
             LinearGradient(colors: [.backgroundTertiaryLight, .backgroundTertiaryDark,  .backgroundTertiaryDark], startPoint: .top, endPoint: .bottom)
                 .ignoresSafeArea()
