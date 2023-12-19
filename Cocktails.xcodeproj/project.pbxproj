@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		BA04A2D42B174B2E00B254B2 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA04A2D32B174B2E00B254B2 /* Colors.xcassets */; };
+		BA04A2DA2B1F794900B254B2 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA04A2D92B1F794900B254B2 /* LoginView.swift */; };
+		BA81E84C2B29D34A0020B7C4 /* LoginForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA81E84B2B29D34A0020B7C4 /* LoginForm.swift */; };
 		E431FC702B162DFE002EDAC4 /* CocktailsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E431FC6F2B162DFE002EDAC4 /* CocktailsApp.swift */; };
 		E431FC722B162DFE002EDAC4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E431FC712B162DFE002EDAC4 /* ContentView.swift */; };
 		E431FC742B162DFF002EDAC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E431FC732B162DFF002EDAC4 /* Assets.xcassets */; };
@@ -36,6 +38,8 @@
 
 /* Begin PBXFileReference section */
 		BA04A2D32B174B2E00B254B2 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		BA04A2D92B1F794900B254B2 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		BA81E84B2B29D34A0020B7C4 /* LoginForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginForm.swift; sourceTree = "<group>"; };
 		E431FC6C2B162DFE002EDAC4 /* Cocktails.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cocktails.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E431FC6F2B162DFE002EDAC4 /* CocktailsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailsApp.swift; sourceTree = "<group>"; };
 		E431FC712B162DFE002EDAC4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -73,6 +77,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA81E84D2B29D5430020B7C4 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				BA81E84E2B29D54B0020B7C4 /* Login */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		BA81E84E2B29D54B0020B7C4 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				BA04A2D92B1F794900B254B2 /* LoginView.swift */,
+				BA81E84B2B29D34A0020B7C4 /* LoginForm.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 		E431FC632B162DFE002EDAC4 = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +119,7 @@
 			children = (
 				E431FC6F2B162DFE002EDAC4 /* CocktailsApp.swift */,
 				E431FC712B162DFE002EDAC4 /* ContentView.swift */,
+				BA81E84D2B29D5430020B7C4 /* Scenes */,
 				E431FC732B162DFF002EDAC4 /* Assets.xcassets */,
 				BA04A2D32B174B2E00B254B2 /* Colors.xcassets */,
 				E431FC752B162DFF002EDAC4 /* Preview Content */,
@@ -261,8 +283,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA04A2DA2B1F794900B254B2 /* LoginView.swift in Sources */,
 				E431FC722B162DFE002EDAC4 /* ContentView.swift in Sources */,
 				E431FC702B162DFE002EDAC4 /* CocktailsApp.swift in Sources */,
+				BA81E84C2B29D34A0020B7C4 /* LoginForm.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
