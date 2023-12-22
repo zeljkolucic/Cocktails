@@ -13,7 +13,6 @@
 		E41682FD2B31C36B002275C5 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41682FC2B31C36B002275C5 /* RegistrationView.swift */; };
 		E41682FF2B31C60A002275C5 /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41682FE2B31C60A002275C5 /* RegistrationViewModel.swift */; };
 		E431FC702B162DFE002EDAC4 /* CocktailsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E431FC6F2B162DFE002EDAC4 /* CocktailsApp.swift */; };
-		E431FC722B162DFE002EDAC4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E431FC712B162DFE002EDAC4 /* ContentView.swift */; };
 		E431FC742B162DFF002EDAC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E431FC732B162DFF002EDAC4 /* Assets.xcassets */; };
 		E431FC772B162DFF002EDAC4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E431FC762B162DFF002EDAC4 /* Preview Assets.xcassets */; };
 		E431FC812B162DFF002EDAC4 /* CocktailsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E431FC802B162DFF002EDAC4 /* CocktailsTests.swift */; };
@@ -46,7 +45,6 @@
 		E41682FE2B31C60A002275C5 /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
 		E431FC6C2B162DFE002EDAC4 /* Cocktails.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cocktails.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E431FC6F2B162DFE002EDAC4 /* CocktailsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailsApp.swift; sourceTree = "<group>"; };
-		E431FC712B162DFE002EDAC4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E431FC732B162DFF002EDAC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E431FC762B162DFF002EDAC4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E431FC7C2B162DFF002EDAC4 /* CocktailsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocktailsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -132,7 +130,6 @@
 			isa = PBXGroup;
 			children = (
 				E431FC6F2B162DFE002EDAC4 /* CocktailsApp.swift */,
-				E431FC712B162DFE002EDAC4 /* ContentView.swift */,
 				BA81E84D2B29D5430020B7C4 /* Scenes */,
 				E431FC732B162DFF002EDAC4 /* Assets.xcassets */,
 				BA04A2D32B174B2E00B254B2 /* Colors.xcassets */,
@@ -299,7 +296,6 @@
 			files = (
 				BA04A2DA2B1F794900B254B2 /* LoginView.swift in Sources */,
 				E41682FF2B31C60A002275C5 /* RegistrationViewModel.swift in Sources */,
-				E431FC722B162DFE002EDAC4 /* ContentView.swift in Sources */,
 				E431FC702B162DFE002EDAC4 /* CocktailsApp.swift in Sources */,
 				BA81E84C2B29D34A0020B7C4 /* LoginForm.swift in Sources */,
 				E41682FD2B31C36B002275C5 /* RegistrationView.swift in Sources */,
