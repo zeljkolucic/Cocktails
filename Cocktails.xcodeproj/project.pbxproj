@@ -18,6 +18,7 @@
 		E431FC812B162DFF002EDAC4 /* CocktailsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E431FC802B162DFF002EDAC4 /* CocktailsTests.swift */; };
 		E431FC8B2B162E00002EDAC4 /* CocktailsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E431FC8A2B162E00002EDAC4 /* CocktailsUITests.swift */; };
 		E431FC8D2B162E00002EDAC4 /* CocktailsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E431FC8C2B162E00002EDAC4 /* CocktailsUITestsLaunchTests.swift */; };
+		E46EF3102B3633A500CDA3FE /* Caveat.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E46EF30F2B3633A500CDA3FE /* Caveat.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,8 @@
 		E431FC862B162E00002EDAC4 /* CocktailsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocktailsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E431FC8A2B162E00002EDAC4 /* CocktailsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailsUITests.swift; sourceTree = "<group>"; };
 		E431FC8C2B162E00002EDAC4 /* CocktailsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E46EF30F2B3633A500CDA3FE /* Caveat.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Caveat.ttf; sourceTree = "<group>"; };
+		E46EF3112B36340700CDA3FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +132,8 @@
 		E431FC6E2B162DFE002EDAC4 /* Cocktails */ = {
 			isa = PBXGroup;
 			children = (
+				E46EF3112B36340700CDA3FE /* Info.plist */,
+				E46EF30E2B36339800CDA3FE /* Fonts */,
 				E431FC6F2B162DFE002EDAC4 /* CocktailsApp.swift */,
 				BA81E84D2B29D5430020B7C4 /* Scenes */,
 				E431FC732B162DFF002EDAC4 /* Assets.xcassets */,
@@ -161,6 +166,14 @@
 				E431FC8C2B162E00002EDAC4 /* CocktailsUITestsLaunchTests.swift */,
 			);
 			path = CocktailsUITests;
+			sourceTree = "<group>";
+		};
+		E46EF30E2B36339800CDA3FE /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E46EF30F2B3633A500CDA3FE /* Caveat.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,6 +282,7 @@
 			files = (
 				BA04A2D42B174B2E00B254B2 /* Colors.xcassets in Resources */,
 				E431FC772B162DFF002EDAC4 /* Preview Assets.xcassets in Resources */,
+				E46EF3102B3633A500CDA3FE /* Caveat.ttf in Resources */,
 				E431FC742B162DFF002EDAC4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -465,6 +479,7 @@
 				DEVELOPMENT_TEAM = WHP9Z6BC8S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Cocktails/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -494,6 +509,7 @@
 				DEVELOPMENT_TEAM = WHP9Z6BC8S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Cocktails/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

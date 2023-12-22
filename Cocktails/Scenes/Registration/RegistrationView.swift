@@ -30,7 +30,7 @@ struct RegistrationView: View {
                 endPoint: .bottom
             ).ignoresSafeArea()
         }
-        .font(.custom("Caveat Regular", size: 16, relativeTo: .body))
+        .font(.custom("Caveat", size: 17, relativeTo: .body)).bold()
     }
     
     private var form: some View {
@@ -82,6 +82,7 @@ struct RegistrationView: View {
                     TextField("name", text: $viewModel.name)
                         .padding(.horizontal)
                         .foregroundStyle(.textPrimary)
+                        .textContentType(.name)
                 }
             Rectangle()
                 .frame(height: Constants.TextField.height)
@@ -89,13 +90,16 @@ struct RegistrationView: View {
                     TextField("email", text: $viewModel.email)
                         .padding(.horizontal)
                         .foregroundStyle(.textPrimary)
+                        .textContentType(.emailAddress)
                 }
             Rectangle()
                 .frame(height: Constants.TextField.height)
                 .overlay {
-                    TextField("password", text: $viewModel.password)
+                    SecureField("password", text: $viewModel.password)
                         .padding(.horizontal)
                         .foregroundStyle(.textPrimary)
+                        .textContentType(.password)
+                        
                 }
         }
         .multilineTextAlignment(.center)
