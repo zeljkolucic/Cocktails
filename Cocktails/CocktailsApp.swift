@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct CocktailsApp: App {
+    @StateObject private var registrationViewModel = RegistrationViewModel()
+    
     var body: some Scene {
         WindowGroup {
-            LoginView()
+            RegistrationView(viewModel: registrationViewModel)
         }
     }
 }
